@@ -102,5 +102,7 @@ chmod u+x ~/run_dedicated_servers.sh
  
 # Run the script to start the dedicated servers
 ```
-~/run_dedicated_servers.sh
+nohup ~/run_dedicated_servers.sh &
 ```
+Press
+``ctrl a and ctrl d``
