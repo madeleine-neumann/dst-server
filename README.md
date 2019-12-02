@@ -70,7 +70,8 @@ mkdir -p ~/.klei/DoNotStarveTogether/MyDediServer/Master
 mkdir -p ~/.klei/DoNotStarveTogether/MyDediServer/Caves
 ```
 
-### this creates your server token file, if you don't yet have your cluster token you'll need to create one
+### this creates your server token file, if you don't yet have your cluster token you'll need to create one here:
+https://accounts.klei.com/account/game/servers?game=DontStarveTogether
 ```
 echo 'enter your server token here' > ~/.klei/DoNotStarveTogether/MyDediServer/cluster_token.txt
 ```
