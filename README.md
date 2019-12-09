@@ -156,6 +156,9 @@ Upload files from `` klei/DontStarveTogether/MyDediServer`` via sftp to ``.klei/
 .klei/DoNotStarveTogether/MyDediServer
 ```
 
+### You can also use this information:
+https://gist.github.com/madeleine-neumann/3133d23bc27d6c7e0237bb7f90784264
+
 ### Remove this line from ``run_dedicated_servers.sh`` to install mods and re-add it after installation for updates
 ```
 ./steamcmd.sh +force_install_dir "$install_dir" +login anonymous +app_update 343050 validate +quit
