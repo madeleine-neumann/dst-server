@@ -175,6 +175,19 @@ ctrl a and ctrl d
 to detach from terminal
 
 
+### Backups
+``crontab -e``
+
+If you would like to make backups of your different servers, it could possibly look like this:
+
+#### Content of crontab file: 
+```
+0 * * * * tar -czf /home/dst/`date +\%Y-\%m-\%d_\%H-\%M`survival_backup.tar.gz -C /home/dst/.klei/DoNotStarveTogether SurvivalServer
+0 * * * * tar -czf /home/dst/`date +\%Y-\%m-\%d_\%H-\%M`endless_backup.tar.gz -C /home/dst/.klei/DoNotStarveTogether EndlessServer
+0 * * * * tar -czf /home/dst/`date +\%Y-\%m-\%d_\%H-\%M`endless_friends_backup.tar.gz -C /home/dst/.klei/DoNotStarveTogether EndlessFriends
+```
+
+
 
 
 
