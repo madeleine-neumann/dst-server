@@ -9,8 +9,26 @@
 	--The Workshop id can be found at the end of the url to the collection's Workshop page.
 	--Example: http://steamcommunity.com/sharedfiles/filedetails/?id=379114180
 	--ServerModCollectionSetup("379114180")
-ServerModSetup("378160973")
+--   Simple Healthbar DST
+ServerModSetup("1207269058")
+-- Ingame Trashbin from Hamlet
+ServerModSetup("2063154740")
+-- Display FoodValues
+ServerModSetup("347079953")
+-- Infinite Tent use
 ServerModSetup("356930882")
+-- Wormhole Marks [DST]
 ServerModSetup("362175979")
-ServerModSetup("623749604")
+-- Global Positions
+ServerModSetup("378160973")
+-- No Thermal Stone Durability
 ServerModSetup("466732225")
+-- [DST]-Scythes
+ServerModSetup("537902048")
+-- [DST] Storeroom
+ServerModSetup("623749604")
+-- Automatic Health Adjust
+ServerModSetup("764204839")
+-- QuickDrop
+ServerModSetup("856487758")
+
