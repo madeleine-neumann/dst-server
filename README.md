@@ -174,6 +174,16 @@ ctrl a and ctrl d
 ```
 to detach from terminal
 
+### Restart server
+```
+pgrep -a your_server_starting_script.sh
+```
+
+```
+kill -9 PID
+```
+
+
 
 ### Backups
 ``crontab -e``
