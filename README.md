@@ -183,7 +183,33 @@ pgrep -a your_server_starting_script.sh
 kill -9 PID
 ```
 
+### Multiple Servers on one mashine
+To run multiple dedicated servers on one mashine, you need to change the server ports in the following files (I just added +10 to each port): 
+``Master/server.ini``
+```
+[NETWORK]
+server_port = 11010
 
+[STEAM]
+master_server_port = 27028
+authentication_port = 8778
+```
+``Caves/server.ini``
+```
+[NETWORK]
+server_port = 11011
+
+[STEAM]
+master_server_port = 27029
+authentication_port = 8779
+```
+
+``cluster.ini``
+```
+[SHARD]
+master_port = 10889
+
+```
 
 ### Backups
 ``crontab -e``
